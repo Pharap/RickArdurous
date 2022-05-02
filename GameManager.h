@@ -3,7 +3,7 @@
 
 namespace GameManager
 {
-	enum GameState
+	enum GameState : unsigned char
 	{
 		MAIN_MENU = 0,
 		PLAYING,

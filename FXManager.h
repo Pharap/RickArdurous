@@ -15,7 +15,7 @@ namespace FXManager
 		unsigned char RepeatTime	:4;
 	};
 
-	enum BufferId
+	enum BufferId : unsigned char
 	{
 		GAME = 0,
 		RICK,

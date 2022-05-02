@@ -4,7 +4,7 @@
 class Item
 {
 public:
-	enum PropertyFlags
+	enum PropertyFlags : unsigned char
 	{
 		NONE = 0,
 		// this flag is necessary for the MapManager
@@ -19,7 +19,7 @@ public:
 		SPECIAL_2 = 1 << 7,
 	};
 	
-	enum UpdateStep
+	enum UpdateStep : unsigned char
 	{
 		DRAW_LETHAL_BESIDE = 0,
 		CHECK_LETHAL_BESIDE,
@@ -33,7 +33,7 @@ public:
 		RESPAWN,
 	};
 
-	enum Side
+	enum Side : unsigned char
 	{
 		NO_SIDE = 0,
 		LEFT,

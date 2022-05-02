@@ -37,7 +37,7 @@ namespace Rick
 	static constexpr int RIGHT_X_SHIFT_FOR_COLLISION_UNDER_FEET_CRAWL = 9;
 	
 	// state of Rick
-	enum AnimState
+	enum AnimState : unsigned char
 	{
 		IDLE = 0,
 		WALK,
